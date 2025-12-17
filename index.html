@@ -45,59 +45,88 @@
 
   <main class="container">
     <!-- Pages placeholders -->
-    <section id="page-home" class="min-screen">
-      <div class="hero">
-        <div class="wrap">
-          <h1>Building immersive <span class="gradient-text">game experiences</span></h1>
-          <p class="lead">AR/VR • Unity • AI-powered interaction</p>
-          <p>I'm <strong style="color:var(--accent-purple)">Dibyansh Garg</strong>, a B.Tech Gaming Technology student focused on AR/VR games and AI/ML interactive systems.</p>
+   <section id="page-home" class="min-screen">
+  <!-- HERO -->
+  <div class="hero">
+    <div class="wrap">
+      <h1>Building immersive <span class="gradient-text">game experiences</span></h1>
+      <p class="lead">AR/VR • Unity • AI-powered interaction</p>
+      <p>
+        I'm <strong style="color:var(--accent-purple)">Dibyansh Garg</strong>,
+        a B.Tech Gaming Technology student focused on AR/VR games and AI/ML interactive systems.
+      </p>
 
-          <div style="margin-top:18px;">
-            <button class="btn btn-primary" data-id="builds">Explore My Builds <span data-lucide="chevrons-right" style="height:16px"></span></button>
-            <a href="Dibyansh_Garg_Resume.pdf" target="_blank" class="btn btn-ghost" style="margin-left:10px">View Resume</a>
-          </div>
+      <div style="margin-top:18px;">
+        <button class="btn btn-primary" data-id="builds">
+          Explore My Builds
+          <span data-lucide="chevrons-right" style="height:16px"></span>
+        </button>
+        <a
+          href="Dibyansh_Garg_Resume.pdf"
+          target="_blank"
+          class="btn btn-ghost"
+          style="margin-left:10px"
+        >
+          View Resume
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- START HERE (MOVED INTO HOME) -->
+  <div class="card" style="margin-top:40px" id="start-here">
+    <h2 class="title-2">Start Here</h2>
+    <p class="muted">
+      Most visitors don’t know what to click first. This section guides you intentionally.
+    </p>
+
+    <div style="margin-top:18px;display:grid;gap:12px">
+      <div class="start-item" data-id="builds">
+        <div style="font-size:22px">⏱️</div>
+        <div>
+          <p style="margin:0;color:var(--text)">
+            If you have <strong style="color:var(--accent-purple)">3 minutes</strong>,
+            start with <strong>V.I.S.T.A</strong>.
+          </p>
         </div>
       </div>
-    </section>
 
-    <section id="page-start" class="min-screen" style="display:none">
-      <div class="card">
-        <h2 class="title-2">Start Here</h2>
-        <p class="muted">Most visitors don't know what to click first. This page guides you intentionally.</p>
-
-        <div style="margin-top:18px;display:grid;gap:12px">
-          <div class="start-item" data-id="builds">
-            <div style="font-size:22px">⏱️</div>
-            <div>
-              <p style="margin:0;color:var(--text)">If you have <strong style="color:var(--accent-purple)">3 minutes</strong>, start with <strong>VISTA</strong>.</p>
-            </div>
-          </div>
-
-          <div class="start-item" data-id="builds">
-            <div style="font-size:22px">🎮</div>
-            <div>
-              <p style="margin:0;color:var(--text)">If you're interested in <strong style="color:orange">AR games</strong>, see the <strong>Balloon Shooting Game</strong>.</p>
-            </div>
-          </div>
-
-          <div class="start-item" data-id="builds">
-            <div style="font-size:22px">🤖</div>
-            <div>
-              <p style="margin:0;color:var(--text)">If you care about <strong style="color:var(--accent-purple)">AI & ML</strong>, check the <strong>Body Language Detector</strong>.</p>
-            </div>
-          </div>
-        </div>
-
-        <div style="margin-top:16px;color:var(--sub)">
-          <p>I don't just build projects to complete courses — I build them to understand how users interact and how systems perform in real time.</p>
-        </div>
-
-        <div style="margin-top:18px;text-align:center">
-          <button class="btn btn-primary" data-id="builds">View All Projects <span data-lucide="chevrons-right" style="height:16px"></span></button>
+      <div class="start-item" data-id="builds">
+        <div style="font-size:22px">🎮</div>
+        <div>
+          <p style="margin:0;color:var(--text)">
+            Interested in <strong style="color:orange">AR games</strong>?
+            Try the <strong>Balloon Shooting Game</strong>.
+          </p>
         </div>
       </div>
-    </section>
 
+      <div class="start-item" data-id="builds">
+        <div style="font-size:22px">🤖</div>
+        <div>
+          <p style="margin:0;color:var(--text)">
+            Curious about <strong style="color:var(--accent-purple)">AI & ML</strong>?
+            Check the <strong>Body Language Detector</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:16px;color:var(--sub)">
+      <p>
+        I don’t build projects just to complete courses —
+        I build them to understand users, performance, and real-world interaction.
+      </p>
+    </div>
+
+    <div style="margin-top:18px;text-align:center">
+      <button class="btn btn-primary" data-id="builds">
+        View All Projects
+        <span data-lucide="chevrons-right" style="height:16px"></span>
+      </button>
+    </div>
+  </div>
+</section>
     <section id="page-builds" class="min-screen" style="display:none">
       <div style="margin-bottom:18px">
         <h2 class="title-2">Selected Builds</h2>
